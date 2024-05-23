@@ -2,7 +2,6 @@
 let quantityProduct = prompt("Ввести кількість товару:");
 let priceProduct = prompt("Ввести ціну товару:");
 
-
 //Розрахунок вартості:
 let costProduct = Number(quantityProduct) * Number(priceProduct);
 

@@ -4,7 +4,7 @@ let number2 = prompt("Введіть друге число для порівня
 number1 = parseFloat(number1);
 number2 = parseFloat(number2);
 
-if (number1 == number2) {
+if (number1 === number2) {
     alert ('Числа рівні');
 }
 else {

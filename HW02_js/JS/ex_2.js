@@ -13,3 +13,13 @@ if (number % 2 === 0) {
 }
 
 
+//Варіант 2
+
+/*let userNumber = (prompt ('Type number'));
+
+if (userNumber%2 === 0) {
+console.log ('Парне число');
+} else {
+    console.log ('Непарне число');
+}
+*/
