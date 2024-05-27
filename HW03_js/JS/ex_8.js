@@ -1,4 +1,4 @@
-//запит на день тижня приводимо у будь-який ргістр toLowerCase()
+//запит на день тижня приводимо у будь-який регістр toLowerCase()
 let youDay = prompt(`Enter today's day of the week`).toLowerCase();
 
 //розбиваємо дні у відповідності до задач виконання
@@ -19,4 +19,5 @@ switch (youDay) {
         break;
     default:
         console.log('Incorrect day');
+        break;
 }

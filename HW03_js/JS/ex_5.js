@@ -1,4 +1,6 @@
-for (let i = 1; i < 10; i++){
+let userNum = Number(prompt('Введіть число'));
+
+for (let i=1; i<=userNum ; i++){
    if (i%2===0){
     console.log(`число ${i} парне`);
    } else{

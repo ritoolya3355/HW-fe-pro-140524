@@ -14,3 +14,21 @@ do {
 //виводимо результат
 
 console.log(`${sum}`);
+
+
+
+
+/* ******другий варіант*******
+
+let start = 1;
+let end = 20;
+let summ = 0;
+let i = start;
+
+while (i<=end) {
+    if (i%2===0){
+        summ+=i;
+    }
+    i++;
+}
+console.log (`Сума парних чисел ${summ}`);*/
