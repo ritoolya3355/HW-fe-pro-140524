@@ -16,3 +16,13 @@ console.log(`${a} ^ ${b} = ${power(a,b)}`);
 let shortPower = (a,b) =>  a**b;
 console.log (`${a} ^ ${b} = ${shortPower(a,b)}`);
 
+//варіант розібраний на уроці
+
+function powerValue (number, exponent){
+    let result =1;
+    for (let i=0; i<exponent; i++){
+        result*=number;
+    }
+    return result;
+}
+console.log(`2 in 3 ${powerValue(2,3)}`);

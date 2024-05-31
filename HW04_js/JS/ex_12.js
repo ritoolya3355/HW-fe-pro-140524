@@ -4,7 +4,7 @@ let maxNumber = arrayMatrix[0];
 
 //створюємо функцію, що буде шукати найбільше число в масиві
 function findMaxNumber(array) {
-    for (i = 0; i < array.length; i++) {
+    for (let i = 0; i < array.length; i++) {
         if (array[i] > maxNumber) { //поставила після дужок ; і не могла зрозуміти що не працює :)
             maxNumber = array[i];
         }

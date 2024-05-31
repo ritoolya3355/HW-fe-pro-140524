@@ -13,3 +13,20 @@ function checkNumbers(array, number) {
 }
 
 console.log(checkNumbers(arrayMatrix, newNumber));
+
+
+//варіант розглянутий на уроці
+
+function addUniqNumber(arr, num){
+    for (let i=0; i<arr.lenght; i++) {
+        if(arr[i] === num){
+            return arr;
+        }
+    }
+    arr.push(num);
+    return arr;
+}
+
+console.log (`test function ${addUniqNumber([1,2,3], 4)}`);
+console.log (`test function ${addUniqNumber([1,2,3], 2)}`);
+console.log (`test function ${addUniqNumber([1,2,3], 6)}`);
