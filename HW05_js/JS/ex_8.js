@@ -13,6 +13,10 @@ console.log (newArr);
 
 
 
-    
+//скорочений варіант розглянутий в класі    
 
+function sliceAndReverse (arr,start,end){
+    return arr.slice (start,end).reverse();
+}
+console.log(sliceAndReverse([1,2,3,4,5,6], 1,4));
     

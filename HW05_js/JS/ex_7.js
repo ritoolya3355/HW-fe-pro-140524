@@ -29,4 +29,12 @@ let newArr = mapArray (evenNumbers, doubleNumber);
 
 console.log(newArr);
 
+
+//варіант в класі
+
+function filterAndMultiply (arr) {
+    return arr.filter (num=>num%2 === 0).map (num=>num82);
+   }
+   console.log (filterAndMultiply([1,2,3,4,5,6]));
+
     
