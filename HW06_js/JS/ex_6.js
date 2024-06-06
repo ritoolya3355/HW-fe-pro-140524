@@ -21,3 +21,12 @@ function filterBooksAfter2000(books) {
 const booksAfter2000 = filterBooksAfter2000(books);
 console.log("Книги, опубліковані після 2000 року:");
 console.log(booksAfter2000);
+
+
+//розв’язок в класі:
+
+function filterBooks(bookArr){
+    return bookArr.filter(book=> book.year < 2000);
+}
+
+console.log (filterBooks(books));

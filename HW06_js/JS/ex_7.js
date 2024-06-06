@@ -31,5 +31,25 @@ const sortedSalaries = sortSalary(increasedSalary);
 console.log(sortedSalaries);
 
 
-// коли збільшуємо зарплату на 10%, то чомусь виводить John 3300.00000000005, Mark 3850.00000000005
-//не розумію, що не так зробила?
+//інший варіант
+
+/*function increaseSalary(arr) {
+    let newSalaryDate =[];
+    for (let employee of arr){
+        let updateItem =[
+            name: employee.name,
+            age: employee.age,
+            salary: employee.salary*1.1
+        ]
+        newSalaryDarte.push(updateItem);
+    }
+    return newSalaryDate
+}
+function sortSalary(arr){
+    return arr.sort((a,b)=>{
+        return a.salary-b.salary
+    })
+}
+console.log (increaseSalary(employees));
+console.log (sortSalary(employees));
+*/

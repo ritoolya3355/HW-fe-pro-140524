@@ -14,3 +14,13 @@ newUserAge = Number(newUserAge);
 const newCurrentYear = new Date().getFullYear();
 const newUserBirthYear = newCurrentYear - newUserAge;
 console.log(`Рік Вашого народження: ${newUserBirthYear}`);
+
+
+//приклад вирішення з уроку
+
+/*function getYearOfBirth (age) {
+    let currentYear = new Date ().getFullYear();
+    return currentYear - age;
+}
+console.log (`Year of Birth ${getYearOfBirth(30)}`);
+*/
