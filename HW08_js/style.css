@@ -1,0 +1,86 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    width: 900px;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ex1 li {
+    font-size: 2rem;
+    text-align: center;
+    width: 10rem;
+    list-style: none;
+    padding: 10px 40px;
+    border: 2px solid blueviolet;
+}
+
+.nav li {
+    font-size: 2rem;
+    text-align: center;
+    width: 10rem;
+    list-style: none;
+    padding: 10px 40px;
+    border: 2px solid rgb(80, 179, 165);
+}
+
+table,th,td{
+    border: 1px solid grey;
+    text-align:center;
+  } 
+
+.table {
+    width: 80%;
+    margin: 5% auto;
+}
+
+th {
+    font-size: 2rem;
+}
+
+tr {
+    height: 40px;
+}
+
+.to_page a {
+    font-size: 2rem;
+}
+
+.to_page {
+    width: 8%;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid rgb(34, 13, 224);
+    border-radius: 15px;
+    background-color: rgb(112, 196, 245);
+}
+
+.container {
+    height: 150px;
+    border: 2px solid black;
+}
+
+.p_ex {
+    font-size: 2rem;
+    color: red;
+}
+
+.div_ex {
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: aquamarine;
+}
+.span_ex {
+    font-size: 3rem;
+}
