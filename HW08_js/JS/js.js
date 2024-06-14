@@ -73,6 +73,8 @@ window.onload = function () {
         titleCell.innerText = book.title;
         newRowTable.appendChild(titleCell);
 
+        //можна замість innerText - textContent
+
         let yearCell = document.createElement('td');
         yearCell.innerText = book.year;
         newRowTable.appendChild(yearCell);

@@ -1,0 +1,17 @@
+.test {
+    border: 2px solid rgb(224, 109, 14);
+    box-sizing: border-box;
+}
+
+ul{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 50px;
+}
+
+li{
+    list-style: none;
+    font-size: 20px;
+    margin: 20px;
+}
