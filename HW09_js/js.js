@@ -71,7 +71,7 @@ window.onload = function () {
     ];
     let filterAge = 30;//наприклад, нехай поріг для фільтру буде 30 років
 
-    //функція, що буде фільтрувати за віком, що більше певного вікового порогу
+    //функція, що буде фільтрувати за віком, що >= певного вікового порогу
     function filterObjects(object, filterAge) {
         let filteredObj = object.filter(obj => obj.age >= filterAge);
         //створюємо список

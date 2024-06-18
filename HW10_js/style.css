@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+main {
+    text-align: center;
+}
+
+.my-p-class {
+    padding: 2%;
+    margin: 2% auto;
+    width: 20rem;
+    border: 3px solid rgb(10, 7, 8);
+    border-radius: 10px;
+    background-color: rgba(248, 232, 7, 0.479);
+}
+
+.smallSize {
+    text-align: center;
+    padding: 2%;
+    margin: 2% auto;
+    width: 20rem;
+    border: 3px solid rgb(75, 17, 19);
+    border-radius: 10px;
+    background-color: rgba(127, 255, 212, 0.24);
+}
+
+.largeSize {
+    text-align: center;
+    padding: 2%;
+    margin: 2% auto;
+    width: 40rem;
+    font-size: 2rem;
+}
+
+.container {
+    font-size: 2rem;
+    color: rgb(59, 3, 122);
+    width: 100%;
+    margin: 2% auto;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.container-btn {
+    margin: 0 5%;
+    width: 15%;
+    padding: 1%;
+    font-size: 1.2rem;
+}
+
+.container-div {
+    width: 18%;
+    padding: 2%;
+    margin: 1%;
+    text-align: center;
+    border: 1px solid rgb(59, 3, 122);
+    background-color: #cfb2f5;
+    cursor: pointer;
+    opacity: 0;
+    animation: graduallyAppears 2s forwards;
+}
+
+/*щоб div з’являлися поступово*/
+@keyframes graduallyAppears {
+    to {
+        opacity: 1;
+    }
+}
+
+.block-container {
+    margin: 2% 15%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.first,
+.second,
+.third {
+    width: 10rem;
+    margin: 0 5%;
+    font-size: 1.2rem;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+#toggleMenuBtn {
+    margin: 2% 0.5%;
+    height: 1.5rem;
+    width: 10%;
+    background-color: #cfb2f5;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header-menu {
+    margin: 0;
+    display: none;
+    list-style-type: none;
+}
+
+.header-menu-item {
+    background-color: #cfb2f55b;
+    border: 1px solid black;
+    width: 200px;
+}
+
