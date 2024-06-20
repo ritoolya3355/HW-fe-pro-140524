@@ -44,7 +44,7 @@ window.onload = function () {
     divEl.textContent = 'При подвійному натиску я зрозту (ondblclick)';
     main.appendChild(divEl);
 
-    // Додаємо обробник події dblclick для перемикання між класами smallSize і largeSize
+    // Додаємо обробник події dblclick для перемикання між класами (toggle) smallSize і largeSize
     //розміри задаємо в класах css
     divEl.ondblclick = function () {
         divEl.classList.toggle('largeSize');
