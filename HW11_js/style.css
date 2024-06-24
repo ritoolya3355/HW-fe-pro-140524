@@ -41,6 +41,10 @@ body {
     background-color: #f0f0f0;
 }
 
+#hide-element{
+    background-color: #cac9c9;
+}
+
 .playing-field,
 .playing-field2 {
     margin: 1% 25%;

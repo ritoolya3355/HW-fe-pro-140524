@@ -22,17 +22,11 @@ window.onload = function () {
         contextMenu.style.display = 'block';
     });
 
-    // Додаємо обробник події для кліку на документі
-    document.addEventListener('click', () => {
-        // Ховаємо контекстне меню, коли користувач клікає будь-де на сторінці
-        contextMenu.style.display = 'none';
-    });
-
     // Отримуємо елементи опцій контекстного меню
-    let centerAlign = document.getElementById('center-align');
-    let rightAlign = document.getElementById('right-align');
-    let leftAlign = document.getElementById('left-align');
-    let hideElement = document.getElementById('hide-element');
+    let centerAlign = document.querySelector('#center-align');
+    let rightAlign = document.querySelector('#right-align');
+    let leftAlign = document.querySelector('#left-align');
+    let hideElement = document.querySelector('#hide-element');
 
     // Додаємо обробник події для опції "Вирівняти по центру"
     centerAlign.addEventListener('click', () => {
@@ -52,13 +46,11 @@ window.onload = function () {
         textBlockP.style.textAlign = 'left';
     });
 
-    // Додаємо обробник події для опції "Приховати елемент"
+    // Додаємо обробник події для опції "Закрити меню"
     hideElement.addEventListener('click', () => {
         // Приховуємо текстовий блок
-        textBlockP.style.display = 'none';
+        contextMenu.style.display = 'none';
     });
-
-    //??? зробила через id. Тут питання, як в даному прикладі краще - використовувати класи чи id?
 
     /******Завдання 'keyup' *********/
 
@@ -88,8 +80,6 @@ window.onload = function () {
         }
         updatePosition(); // Оновлюємо позицію м'яча
     });
-
-    //??? не розумію як тут використати keyup, чи щось не так зробила?
 
     /******Завдання 'mouseover' p*********/
     // Отримуємо елемент P

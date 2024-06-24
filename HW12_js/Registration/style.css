@@ -1,0 +1,80 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0 auto;
+
+}
+
+.page {
+    width: 100%;
+    background-color: #001124;
+    /*background-image: url(registr_figure.svg);*/
+    background-repeat: no-repeat;
+    background-position: 19% 33%;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.avatar {
+    margin: 1% 10%;
+}
+
+.form {
+   
+    width: 361px;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-family: "DM Serif Display", serif;
+    font-size: 4.5rem;
+    line-height: 61.7px;
+}
+
+
+.login__data {
+    margin-bottom: 11px;
+}
+
+.login__data>* {
+    font-family: "Padauk", serif;
+    font-size: 2rem;
+    line-height: 29.49px;
+    display: block;
+    width: 100%;
+}
+
+.login__button {
+    font-family: Padauk;
+    width: 180px;
+    height: 43px;
+    border-radius: 5px;
+    background-color: #015FC7;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 39px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.to_registration p {
+    color: #499FFE;
+}
+
+.r__button {
+    margin-left: 25%;
+    margin-top: 45px;
+    color: #FFFFFF;
+}
+
+.r__button:hover{
+    background-color: #015dc79a;
+}
+
+input:invalid {
+    border-color: red;
+}
