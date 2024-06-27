@@ -85,4 +85,6 @@ window.onload = function () {
             rePassword.classList.remove('invalid');
         }
     }
+
+    
 }
