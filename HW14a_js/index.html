@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dz14a_Marharyta Opanasiuk</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Sales Information</h1>
+<!-- форма пошуку -->
+    <label for="startDate">Start Date:</label>
+    <input type="date" id="startDate">
+    <label for="endDate">End Date:</label>
+    <input type="date" id="endDate">
+    <label for="invoiceId">Invoice ID:</label>
+    <input type="text" id="invoiceId" placeholder="Search by ID">
+    <label for="customerName">Customer Name:</label>
+    <input type="text" id="customerName" placeholder="Search by Name">
+    <button id="searchButton">Search</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Invoice ID</th>
+                <th>Date</th>
+                <th>Customer</th>
+                <th>Payable Amount</th>
+                <th>Paid Amount</th>
+                <th>Due</th>
+            </tr>
+        </thead>
+        <tbody id="invoiceTableBody">
+            <!-- Дані будуть вставлені сюди -->
+        </tbody>
+    </table>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
