@@ -1,0 +1,34 @@
+/* src/pages/Home.css */
+
+.home-container {
+    display: flex;
+    align-items: center;
+    background-color: #2B2B2B;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    padding: 40px;
+  }
+  
+  .home-header {
+    max-width: 50%;
+  }
+  
+  .home-header h1 {
+    margin-bottom: 10px;
+    font-size: 6.7rem;
+  }
+  
+  .home-header p {
+    font-size: 2.2rem;
+  }
+  
+  .home-image {
+    max-width: 45%;
+  }
+  
+  .home-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
